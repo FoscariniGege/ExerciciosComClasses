@@ -1,18 +1,27 @@
-## Getting Started
+☕ Exercícios de Java - Introdução a Classes e Orientação a Objetos
+Este repositório guarda os meus primeiros passos na Programação Orientada a Objetos (POO) em Java, focando em como estruturar códigos usando classes próprias e separando responsabilidades.
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+🚀 O que eu estava aprendendo
+Estes códigos marcam a transição importante de colocar tudo no método main para começar a criar o meu próprio ecossistema de classes. O objetivo principal aqui foi entender o que são objetos e como eles se comportam.
 
-## Folder Structure
+Nesta etapa, eu apliquei:
 
-The workspace contains two folders by default, where:
+Criação de Classes e Pacotes: Organizar o código separando a regra de negócio (como a classe do triângulo) da execução principal (Program).
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Instanciação de Objetos: Uso do new para criar instâncias independentes (t01 e t02) a partir de uma mesma classe.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Métodos de Instância (Sem static): Entender a diferença entre métodos estáticos e métodos que pertencem ao objeto, permitindo que o próprio objeto saiba calcular seus dados (como t01.area()).
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+(Nota de evolução: Aqui eu comecei a entender de verdade a essência da Orientação a Objetos, agrupando dados e comportamentos em caixinhas separadas para deixar o código limpo e organizado!)
 
-## Dependency Management
+💻 Exercícios Resolvidos
+Cálculo de Área de Triângulos (Fórmula de Heron): Um programa para ler as medidas dos lados de dois triângulos, instanciar objetos dedicados, calcular suas áreas usando métodos próprios e comparar qual deles possui a maior área.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+🛠️ Tecnologias Utilizadas
+Java
+
+Ferramentas nativas: Scanner (para entrada de dados) e a classe Math (Math.sqrt)
+
+Conceitos de POO: Criação de classes, atributos e métodos de instância
+
+Registro da minha jornada no Java: focado em solidificar os fundamentos da Orientação a Objetos passo a passo!
