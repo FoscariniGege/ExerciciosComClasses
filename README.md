@@ -1,27 +1,20 @@
-☕ Exercícios de Java - Introdução a Classes e Orientação a Objetos
-Este repositório guarda os meus primeiros passos na Programação Orientada a Objetos (POO) em Java, focando em como estruturar códigos usando classes próprias e separando responsabilidades.
+Módulo: Introdução a Classes e Orientação a Objetos (POO)
+Esta pasta reúne os meus primeiros exercícios práticos focados em Programação Orientada a Objetos (POO) em Java. Aqui, dei o passo fundamental de sair da programação procedural (com tudo concentrado no método main) para começar a criar minhas próprias entidades, modelar comportamentos e aplicar conceitos de Clean Code.
 
-🚀 O que eu estava aprendendo
-Estes códigos marcam a transição importante de colocar tudo no método main para começar a criar o meu próprio ecossistema de classes. O objetivo principal aqui foi entender o que são objetos e como eles se comportam.
+🚀 O que foi estudado e aplicado
+Criação de Classes e Pacotes (entities e application): Separação clara entre as regras de negócio das entidades e a execução principal do programa.
 
-Nesta etapa, eu apliquei:
+Atributos e Métodos de Instância: Compreensão prática da diferença entre métodos estáticos (static) e métodos de instância, permitindo que os objetos saibam manipular os seus próprios dados.
 
-Criação de Classes e Pacotes: Organizar o código separando a regra de negócio (como a classe do triângulo) da execução principal (Program).
+Encapsulamento de Comportamentos: Criação de lógica interna nas classes (como cálculo de áreas e movimentação de estoque).
 
-Instanciação de Objetos: Uso do new para criar instâncias independentes (t01 e t02) a partir de uma mesma classe.
+O método toString(): Sobrescrita do método para permitir que os objetos se descrevam automaticamente em formato de texto, limpando e simplificando o código principal.
 
-Métodos de Instância (Sem static): Entender a diferença entre métodos estáticos e métodos que pertencem ao objeto, permitindo que o próprio objeto saiba calcular seus dados (como t01.area()).
+💻 Exercícios Resolvidos nesta Pasta
+Calculadora de Área de Triângulos:
 
-(Nota de evolução: Aqui eu comecei a entender de verdade a essência da Orientação a Objetos, agrupando dados e comportamentos em caixinhas separadas para deixar o código limpo e organizado!)
+Objetivo: Ler as medidas de dois triângulos, instanciar objetos dedicados, calcular suas respectivas áreas utilizando a Fórmula de Heron encapsulada na classe Triangulo, e comparar qual possui a maior área.
 
-💻 Exercícios Resolvidos
-Cálculo de Área de Triângulos (Fórmula de Heron): Um programa para ler as medidas dos lados de dois triângulos, instanciar objetos dedicados, calcular suas áreas usando métodos próprios e comparar qual deles possui a maior área.
+Controle de Estoque de Produtos (Product):
 
-🛠️ Tecnologias Utilizadas
-Java
-
-Ferramentas nativas: Scanner (para entrada de dados) e a classe Math (Math.sqrt)
-
-Conceitos de POO: Criação de classes, atributos e métodos de instância
-
-Registro da minha jornada no Java: focado em solidificar os fundamentos da Orientação a Objetos passo a passo!
+Objetivo: Gerenciar o estoque de um produto simulando entradas e saídas. O sistema lê os dados iniciais, calcula o valor total investido (TotalValueStock), permite adicionar (AddProducts) ou remover (RemoveProducts) itens, e exibe o estado atualizado do produto de forma elegante utilizando o toString().
