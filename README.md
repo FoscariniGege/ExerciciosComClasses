@@ -1,20 +1,45 @@
-Módulo: Introdução a Classes e Orientação a Objetos (POO)
-Esta pasta reúne os meus primeiros exercícios práticos focados em Programação Orientada a Objetos (POO) em Java. Aqui, dei o passo fundamental de sair da programação procedural (com tudo concentrado no método main) para começar a criar minhas próprias entidades, modelar comportamentos e aplicar conceitos de Clean Code.
+Módulo: Introdução a Classes e Orientação a Objetos (POO) em Java
+Este repositório documenta a consolidação da minha base em Programação Orientada a Objetos (POO) com Java. Esta pasta centraliza os primeiros 5 exercícios práticos do curso, representando a transição crucial da programação procedural (com tudo concentrado no método main) para uma arquitetura limpa, modular e orientada a objetos, aplicando os princípios de Clean Code.
 
-🚀 O que foi estudado e aplicado
-Criação de Classes e Pacotes (entities e application): Separação clara entre as regras de negócio das entidades e a execução principal do programa.
+🚀 O que foi estudado e aplicado em todo o módulo
+Separação de Pacotes (entities e application): Isolamento claro entre as regras de negócio das entidades e a execução principal do sistema.
 
-Atributos e Métodos de Instância: Compreensão prática da diferença entre métodos estáticos (static) e métodos de instância, permitindo que os objetos saibam manipular os seus próprios dados.
+Atributos e Métodos de Instância: Compreensão de como criar moldes próprios e permitir que os objetos manipulem os seus próprios dados.
 
-Encapsulamento de Comportamentos: Criação de lógica interna nas classes (como cálculo de áreas e movimentação de estoque).
+Encapsulamento de Comportamentos: Delegação de regras matemáticas e lógicas complexas para dentro das próprias classes.
 
-O método toString(): Sobrescrita do método para permitir que os objetos se descrevam automaticamente em formato de texto, limpando e simplificando o código principal.
+Mutabilidade de Estado: Capacidade de atualizar valores internos de um objeto em tempo real por meio de métodos específicos.
 
-💻 Exercícios Resolvidos nesta Pasta
-Calculadora de Área de Triângulos:
+Lógica Condicional Encapsulada: Tomada de decisões e formatações dinâmicas utilizando estruturas if/else dentro do objeto.
 
-Objetivo: Ler as medidas de dois triângulos, instanciar objetos dedicados, calcular suas respectivas áreas utilizando a Fórmula de Heron encapsulada na classe Triangulo, e comparar qual possui a maior área.
+Uso do método toString(): Sobrescrita para permitir que os objetos gerem sua própria representação textual formatada, mantendo o programa principal limpo.
+
+💻 Os 5 Exercícios Resolvidos nesta Pasta
+Calculadora de Área de Triângulos (Com e Sem Classes):
+
+Evolução Inicial: Comparação prática da mesma lógica implementada primeiro de forma procedural (variáveis soltas no main) e, em seguida, migrada para uma classe dedicada Triangle aplicando a Fórmula de Heron.
 
 Controle de Estoque de Produtos (Product):
 
-Objetivo: Gerenciar o estoque de um produto simulando entradas e saídas. O sistema lê os dados iniciais, calcula o valor total investido (TotalValueStock), permite adicionar (AddProducts) ou remover (RemoveProducts) itens, e exibe o estado atualizado do produto de forma elegante utilizando o toString().
+Foco: Gerenciamento de estado e fluxo de mercadorias. O sistema calcula o valor total investido no estoque e permite realizar entradas (AddProducts) e saídas (RemoveProducts), exibindo o estado atualizado com o toString().
+
+Cálculo de Medidas do Retângulo (Retangulo):
+
+Foco: Encapsulamento de fórmulas geométricas. A classe calcula de forma independente a Área, o Perímetro e a Diagonal (utilizando o Teorema de Pitágoras com Math.sqrt).
+
+Gestão de Funcionários (Funcionario):
+
+Foco: Mutabilidade e regras financeiras. O sistema calcula o salário líquido (descontando o imposto) e aplica aumentos percentuais que afetam estritamente o salário bruto do colaborador.
+
+Sistema de Avaliação de Alunos (Aluno):
+
+Foco: Lógica condicional e formatação dinâmica. A classe soma as notas dos trimestres, avalia se o estudante atingiu a média mínima de aprovação (PASS / FAILED) e calcula automaticamente quantos pontos faltam em caso de reprovação.
+
+🛠️ Tecnologias e Ferramentas Utilizadas
+Linguagem: Java
+
+Entrada e Saída: Scanner e String.format (com formatação avançada de casas decimais e quebras de linha %n)
+
+Bibliotecas Nativas: Math.sqrt para cálculos de raiz quadrada
+
+Conceitos de POO: Classes, instâncias, encapsulamento, métodos com e sem retorno, mutabilidade e sobrescrita do toString().
