@@ -1,22 +1,27 @@
-package application;
+# ☕ Exercícios de Java - Membros Estáticos (Static)
 
-import java.util.Locale;
-import java.util.Scanner;
-import util.ConversorDeDinheiro;
+Este repositório guarda os meus primeiros passos com métodos e atributos estáticos em Java, focando especificamente na separação de responsabilidades em classes utilitárias e uso de constantes.
 
-public class Program {
-    public static void main(String[] args) {
-        Locale.setDefault(Locale.US);
-        Scanner scanner = new Scanner(System.in);
+## 🚀 O que eu estava aprendendo
 
-        System.out.print("Entre com o valor do dolar: ");
-        double cotacao = scanner.nextDouble();
+Estes exercícios foram feitos bem no início dos meus estudos, focando em fazer a lógica funcionar e entender os conceitos fundamentais.
 
-        System.out.print("Entre com o valor que você quer comprar: ");
-        double valorDolar = scanner.nextDouble();
+Nesta etapa, eu apliquei:
+- Métodos estáticos (`static`) para cálculos diretos sem a necessidade de instanciar objetos.
+- Constantes de classe utilizando a combinação de modificadores `public static final`.
+- Organização do projeto em pacotes separados (`application` e `util`).
+- Formatação de valores decimais e controle de localidade com `Locale.US` e `printf`.
 
-        System.out.printf("O valor em reais é: %.2f%n", ConversorDeDinheiro.comprandoDolar(cotacao, valorDolar));
+*(Nota de evolução: O código demonstra a transição da programação sequencial simples para a organização modular, identificando quando uma operação pertence à classe como um todo e não a uma instância individual).*
 
-        scanner.close();
-    }
-}
+## 💻 Exercícios Resolvidos
+
+1. **Conversor de Moeda**: Programa que recebe a cotação do dólar e a quantia a ser comprada, calculando o valor correspondente a ser pago em reais com a aplicação da taxa de 6% de IOF por meio de uma classe utilitária estática.
+
+## 🛠️ Tecnologias Utilizadas
+
+- Java
+- Ferramentas nativas: `Scanner`, `Locale`
+
+---
+*Registro da minha jornada no Java: focado em solidificar a lógica de programação antes de avançar para códigos mais complexos.*
